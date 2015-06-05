@@ -6,15 +6,30 @@
 <p>Here is a list of projects that I am or am interested in working on. These are small, fun projects across a wide variety of languages and technologies appropriate for a one day hacking session. If you're located in Southern California and you're interested in hacking for fun and learning, let me know if anything catches your eye!</p>
 <h2>Projects</h2>
 <ul>
-  <li>Database Stuff</li>
+  <li>Data Stuff</li>
     <ul>
       <li>Postgres</li>
+        <ul>
+          <li>JSON Schema validation</li>
+            <ul><li>Done with SQL functions</li><li>Done in a C extension</li></ul>
+          <li>Implement a variety of graph algorithms using PLV8, the JavaScript stored procedure extension</li>
+        </ul>
+      <li>Neo4J</li>
+      <li>JSON</li>
+        <ul><li>play with some Mongo replacements built on top of Postgres, like ToroDB</li></ul>
+      <li>XML</li>
+        <ul><li>Work on the Postgres extension for binary XML (analogous to JSONB)</li><li>work with some XML databases</li></ul>
     </ul>
   <li>Programming Stuff</li>
     <ul>
       <li>C++</li>
+        <ul>
+          <li>Code generation via template meta programming.</li>
+        </ul>
       <li>Java</li>
       <li>Perl 6</li>
+        <ul><li>Make SQL grammars</li><li>Make Postgres grammars</li><li>Use those grammars, in combination with macros, to create the very best SQL metaprogramming tool (aka a query builder)</li></ul>
+        <ul><li>play in the space between OOP and RPC services with language level custom dispatch</li><li>make a pipes/bulletin board/message queue library that cleanly generalizes over asyncronicity and networking</li></ul>
       <li>Haskell</li>
       <li>JavaScript</li>
       <li>Rust</li>
@@ -22,6 +37,7 @@
   <li>Math Stuff</li>
     <ul>
       <li>Graph Thoery</li>
+        <ul><li>Treating graph walks with cycles as state machines and converting them to regular expressions</li></ul>
       <li>Category Theory</li>
       <li>Type Theory</li>
       <li>Proof Theory</li>
